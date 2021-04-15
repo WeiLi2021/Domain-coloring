@@ -1,0 +1,13 @@
+name: domaincolorex
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9.2   # or 2.7
+  - pip
+  - pip:
+    - cplot
+  - matplotlib
+  - numpy
+  #- jupyter
+  #- jupyter_contrib_nbextensions
+  #- jupyterlab
